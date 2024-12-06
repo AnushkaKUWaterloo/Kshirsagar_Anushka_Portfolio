@@ -212,17 +212,18 @@
       display: block;
     }
 
-    /* Style the certificate images */
+    /* Updated certificate images layout: 3 items on the top row, 3 on the bottom row */
     .certificate-images {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(3, 1fr); /* 3 columns */
       gap: 20px;
       padding: 20px 0;
+      grid-template-rows: repeat(2, auto); /* 2 rows */
     }
 
     .certificate-item img {
       width: 100%;
-      max-width: 400px;
+      max-width: 100%; /* Ensure image stretches fully within its container */
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       transition: transform 0.3s ease-in-out;
@@ -254,6 +255,7 @@
   <section id="home">
     <h2>Hi, I'm Anushka!</h2>
     <p>Hey! I am Anushka Kshirsagar and welcome to my creative space! As a Global Business and Digital Arts student at the University of Waterloo, I thrive on bringing unique ideas to life through design and prototypes. I've competed in 20 hackathons across Canada, built winning projects, and loved every second of the problem-solving!! I am excited to share my passion and projects with you!</p>
+    <img src=""
   </section>
 
   <!-- Projects Section -->
@@ -291,8 +293,6 @@
     </div>
   </section>
 
-  
-
   <!-- Certificates Section -->
   <section id="certificates">
     <h2>Certificates</h2>
@@ -305,21 +305,36 @@
       <li>UI/UX Design Bootcamp Graduate</li>
     </ul>
 
-    <!-- Certificate Images -->
+    <!-- Certificate Images in a grid layout -->
     <div class="certificate-images">
-      <!-- Example certificate 1 -->
+      <!-- Certificate 1 -->
       <div class="certificate-item">
-        <img src="QSYS certificate.jpg" alt="Web Development Certificate"> 
+        <img src="QSYS certificate.jpg" alt="QSYS course certificate">
       </div>
 
-      <!-- Example certificate 2 -->
+      <!-- Certificate 2 -->
       <div class="certificate-item">
-        <img src="BLV certificate.jpg" alt="Hackathon Winner Certificate">
+        <img src="BLV certificate.jpg" alt="Leadership Certificate">
       </div>
 
-      <!-- Example certificate 3 -->
+      <!-- Certificate 3 -->
       <div class="certificate-item">
-        <img src="https://via.placeholder.com/400x300?text=Certificate+3" alt="UI/UX Bootcamp Certificate">
+        <img src="Merit certificate.jpg" alt="Merit Busary Certificate">
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="certificate-item">
+        <img src="CPF certificate.jpg" alt="Canadian French certificate">
+      </div>
+
+      <!-- Certificate 5 -->
+      <div class="certificate-item">
+        <img src="HOYA hacks certificate.jpg" alt="Hackathon Certificate">
+      </div>
+
+      <!-- Certificate 6 -->
+      <div class="certificate-item">
+        <img src="hacakthon certificate.jpg" alt="Hackathon Certificate">
       </div>
     </div>
   </section>
