@@ -81,7 +81,7 @@
       font-weight: bold;
       color: #d40094;
       letter-spacing: 5px;
-      animation: typing 2s 1s forwards, colorChange 2s ease-in-out, scaleUp 1s ease-out forwards;
+      animation: typing 3s 1s forwards, ease-in-outs;
       white-space: nowrap;
       overflow: hidden;
       display: inline-block;
@@ -96,20 +96,6 @@
         width: 100%;
       }
     }
-
-    /* Color Change Animation */
-    @keyframes colorChange {
-      0% {
-        color: #d400a3;
-      }
-      50% {
-        color: #d400a3;
-      }
-      100% {
-        color: #d400a3;
-      }
-    }
-
 
     /* Animation for sliding in from the left */
     @keyframes slideInFromLeft {
@@ -212,7 +198,7 @@
     }
 
     .portfolio-description {
-      font-size: 1.1em; /* Increased description font size */
+      font-size: 20px; /* Increased description font size */
       padding: 0 10px;
     }
 
@@ -289,13 +275,14 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <h1>Welcome to Anushka's Portfolio</h1>
+    <h1>Anushka Kshirsagar</h1>
   </header>
 
   <!-- Home Section -->
   <section id="home">
-    <h2>Hi, I'm Anushka!</h2>
+    <h2>Welcome to Anushka's Portofolio!</h2>
     <p>Hey! I am Anushka Kshirsagar and welcome to my creative space! As a Global Business and Digital Arts student at the University of Waterloo, I thrive on bringing unique ideas to life through design and prototypes. I've competed in 20 hackathons across Canada, built winning projects, and loved every second of the problem-solving!! I am excited to share my passion and projects with you!</p>
+      <img scr="my photo.jpg" alt="Anushka photo">
   </section>
 
   <!-- Projects Section -->
@@ -335,14 +322,16 @@
 
   <!-- Certificates Section -->
   <section id="certificates">
-    <h2>Certificates</h2>
-    <p>Here are some certificates I've earned:</p>
+    <h2>Certificates and Achievements</h2>
+    <p>Below are the certificates and recent achievements:</p>
     
-    <!-- List of certificates -->
+    <!-- List of Achievements -->
     <ul>
-      <li>Certificate in Web Development</li>
-      <li>Hackathon Winner - Waterloo Hackfest 2023</li>
-      <li>UI/UX Design Bootcamp Graduate</li>
+      <li>Won the Best User-Interface at the Google Developer Student Hackathon at the University of Guelph</li>
+      <li> I've been selected as the Lead Designer and Marketing Strategist for Hack Canada, the first-ever Canadian hackathon dedicated to solving national issues.
+</li>
+      <li>Won 2nd place winner at the University of Waterloo’s First Women+ in Tech Hackathon, where teammates and I built a gamified habit-tracking app.
+</li>
     </ul>
 
     <!-- Certificate Images in a grid layout -->
@@ -379,11 +368,25 @@
     </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I'm an extroverted student with a flair for design, coding, and public speaking. My experience includes leading workshops, hosting hackathons, and exploring the intersection of technology and creativity.</p>
-  </section>
+ <!-- About Section -->
+<section id="about" style="padding: 50px 20px; background-color: #f9f9f9;">
+  <div class="about-container" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; max-width: 1200px; margin: auto;">
+    
+    <!-- Text Content -->
+    <div class="about-text" style="flex: 1; padding: 20px; max-width: 600px;">
+      <h2 style="font-size: 2.5em; color: #0056b3; font-weight: 600; margin-bottom: 15px;">About Me</h2>
+      <p style="font-size: 1.2em; line-height: 1.6; color: #333;">I’m the kind of person who sees every blank screen as an opportunity to craft something amazing—whether it’s a sleek UI, a vibrant marketing campaign, or the perfect font combo that makes everything sing. From leading hackathon design teams to starting a 2nd North American small business consulting chapter 'REM on Campus' here at the University of Waterloo, I thrive in creative chaos and love bringing bold visions to life.</p>
+      
+      <h3 style="font-size: 2em; color: #d40094; font-weight: 500;">Design Philosophy</h3>
+      <p style="font-size: 1.2em; line-height: 1.6; color: #333;">I believe design is more than aesthetics—it's about problem-solving, empathy, and connection. For me, great design begins with understanding users on a deeper level, building trust, and crafting solutions that are as intuitive as they are impactful. Whether I’m designing a sleek interface or brainstorming a business idea, I aim to strike a balance between creativity, functionality, and inclusivity.</p>
+    </div>
+
+    <!-- Image Section -->
+    <div class="about-image" style="flex: 1; padding: 20px; display: flex; justify-content: center; align-items: center;">
+      <img src="about me.jpg" alt="Anushka's Photo" style="max-width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); width: 800px;">
+    </div>
+  </div>
+</section>
 
   <!-- Contact Section -->
   <section id="contact" style="background-image: url('https://your-image-url.jpg'); background-size: cover; background-position: center center; padding: 40px 0; color: white;">
