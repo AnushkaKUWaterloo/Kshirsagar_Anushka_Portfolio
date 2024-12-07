@@ -278,12 +278,31 @@
     <h1>Anushka Kshirsagar</h1>
   </header>
 
-  <!-- Home Section -->
-  <section id="home">
-    <h2>Welcome to Anushka's Portofolio!</h2>
-    <p>Hey! I am Anushka Kshirsagar and welcome to my creative space! As a Global Business and Digital Arts student at the University of Waterloo, I thrive on bringing unique ideas to life through design and prototypes. I've competed in 20 hackathons across Canada, built winning projects, and loved every second of the problem-solving!! I am excited to share my passion and projects with you!</p>
-      <img scr="my photo.jpg" alt="Anushka photo">
-  </section>
+ <!-- Home Section -->
+<section id="home" style="padding: 50px 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center">
+  
+  <!-- Heading (Welcome Text) -->
+  <h2 style="font-size: 3.5em; color: #0056b3; font-weight: 600; margin-bottom: 30px; text-align: center;">
+    Welcome to Anushka's Portfolio!
+  </h2>
+
+  <!-- Main Content Container -->
+  <div class="home-container" style="max-width: 1200px; margin: auto; display: flex; flex-direction: row; align-items: center; justify-content: center; flex-wrap: wrap; gap: 30px;">
+    
+    <!-- Text Content -->
+    <div class="home-text" style="flex: 1; padding: 20px; text-align: left; max-width: 600px;">
+      <p style="font-size: 1.2em; line-height: 1.6; color: #555;">
+        Hey! I am Anushka Kshirsagar and welcome to my creative space! As a Global Business and Digital Arts student at the University of Waterloo, I thrive on bringing unique ideas to life through design and prototypes. I've competed in 20 hackathons across Canada, built winning projects, and loved every second of problem-solving! I am excited to share my passion and projects with you!
+      </p>
+    </div>
+
+    <!-- Image Section -->
+    <div class="home-image" style="flex: 1; padding: 20px; display: flex; justify-content: center; align-items: center;">
+      <img src="my photo.jpg" alt="Anushka's Photo" style="max-width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); width: 350px; object-fit: cover;">
+    </div>
+  </div>
+</section>
+
 
  <!-- Projects Section -->
 <section id="projects">
@@ -379,16 +398,14 @@
 
   <!-- Certificates Section -->
   <section id="certificates">
-    <h2>Certificates and Achievements</h2>
+    <h2><center> Certificates and Achievements</h2></center>
     <p>Below are the certificates and recent achievements:</p>
     
     <!-- List of Achievements -->
     <ul>
-      <li>Won the Best User-Interface at the Google Developer Student Hackathon at the University of Guelph</li>
-      <li> I've been selected as the Lead Designer and Marketing Strategist for Hack Canada, the first-ever Canadian hackathon dedicated to solving national issues.
-</li>
-      <li>Won 2nd place winner at the University of Waterloo’s First Women+ in Tech Hackathon, where teammates and I built a gamified habit-tracking app.
-</li>
+      <li><p>Won the Best User-Interface at the Google Developer Student Hackathon at the University of Guelph</li></p>
+    <li> <p> I've been selected as the Lead Designer and Marketing Strategist for Hack Canada, the first-ever Canadian hackathon dedicated to solving national issues.</p></li>
+      <li> <p>Won 2nd place winner at the University of Waterloo’s First Women+ in Tech Hackathon, where teammates and I built a gamified habit-tracking app.</p></li>
     </ul>
 
     <!-- Certificate Images in a grid layout -->
@@ -431,10 +448,10 @@
     
     <!-- Text Content -->
     <div class="about-text" style="flex: 1; padding: 20px; max-width: 600px;">
-      <h2 style="font-size: 2.5em; color: #0056b3; font-weight: 600; margin-bottom: 15px;">About Me</h2>
-      <p style="font-size: 1.2em; line-height: 1.6; color: #333;">I’m the kind of person who sees every blank screen as an opportunity to craft something amazing—whether it’s a sleek UI, a vibrant marketing campaign, or the perfect font combo that makes everything sing. From leading hackathon design teams to starting a 2nd North American small business consulting chapter 'REM on Campus' here at the University of Waterloo, I thrive in creative chaos and love bringing bold visions to life.</p>
+      <h2 style="font-size: 50px; color: #0056b3; font-weight: 600; margin-bottom: 15px;"><center>About Me</h2> </center>
+      <p style="font-size: 19.2px; line-height: 1.6; color: #333;">I’m the kind of person who sees every blank screen as an opportunity to craft something amazing—whether it’s a sleek UI, a vibrant marketing campaign, or the perfect font combo that makes everything sing. From leading hackathon design teams to starting a 2nd North American small business consulting chapter 'REM on Campus' here at the University of Waterloo, I thrive in creative chaos and love bringing bold visions to life.</p>
       
-      <h3 style="font-size: 2em; color: #d40094; font-weight: 500;">Design Philosophy</h3>
+      <h3 style="font-size: 40px; color: #d40094; font-weight: 600;"><center> Design Philosophy</h3></center>
       <p style="font-size: 1.2em; line-height: 1.6; color: #333;">I believe design is more than aesthetics—it's about problem-solving, empathy, and connection. For me, great design begins with understanding users on a deeper level, building trust, and crafting solutions that are as intuitive as they are impactful. Whether I’m designing a sleek interface or brainstorming a business idea, I aim to strike a balance between creativity, functionality, and inclusivity.</p>
     </div>
 
@@ -470,6 +487,9 @@
       </div>
     </div>
   </section>
+  
+
+  
 
   <!-- Footer -->
   <footer>
