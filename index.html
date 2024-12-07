@@ -70,8 +70,46 @@
 
     h1 {
       color: #0056b3;
-      font-size: 2.5em; /* Increased font size for header */
+      font-size: 44px; /* Increased font size for header */
     }
+    
+   
+    /* Header Text Animation */
+    h1 {
+      font-family: 'Playwrite NZ', cursive;
+      font-size: 40px;
+      font-weight: bold;
+      color: #d40094;
+      letter-spacing: 5px;
+      animation: typing 2s 1s forwards, colorChange 2s ease-in-out, scaleUp 1s ease-out forwards;
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+    }
+
+    /* Typing effect */
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+
+    /* Color Change Animation */
+    @keyframes colorChange {
+      0% {
+        color: #d400a3;
+      }
+      50% {
+        color: #d400a3;
+      }
+      100% {
+        color: #d400a3;
+      }
+    }
+
 
     /* Animation for sliding in from the left */
     @keyframes slideInFromLeft {
@@ -98,12 +136,12 @@
 
     /* Apply the sliding effect */
     h2 {
-      font-size: 2.2em; /* Increased font size for sub-header */
-      animation: slideInFromLeft 1s ease-out forwards;
+      font-size: 40px; /* Increased font size for sub-header */
+      animation: slideInFromLeft 2s ease-out forwards;
     }
 
     p {
-      font-size: 1.2em; /* Increased font size for paragraphs */
+      font-size: 24px; /* Increased font size for paragraphs */
       animation: slideInFromLeftWithDelay 1.5s ease-out forwards; /* Delay by 0.5s */
     }
 
@@ -196,7 +234,6 @@
       padding: 15px 20px;
       font-size: 18px;
       text-decoration: none;
-      display: none; /* Initially hidden */
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
       transition: background-color 0.3s ease;
     }
@@ -225,8 +262,8 @@
     }
 
     .certificate-item img {
-      width: 100%;
-      max-width: 450px; /* Increased max-width for larger images */
+      width: 100%
+      max-width: 100px; /* Increased max-width for larger images */
       height: auto; /* Keep aspect ratio */
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
