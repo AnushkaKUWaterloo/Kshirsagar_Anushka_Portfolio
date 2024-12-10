@@ -3,15 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+      <!-- Created by Anushka Kshirsagar on 2024-11-10 -->
+  
   <title>Anushka Kshirsagar - Portfolio</title>
+
+  <!-- Link to Host Grotesk font -->
   <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!-- Link to Playwrite NZ font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ&display=swap" rel="stylesheet">
+
   <style>
     /* General Styles */
     body {
-      font-family: Fantasy, ;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
       background-image: url('https://i.pinimg.com/736x/b4/3d/a1/b43da13fd1ca47aa9d01f2ba41ec9b80.jpg');
       background-size: cover;
       background-position: center center;
@@ -19,21 +24,22 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      margin: 2;
+      padding: 5;
     }
 
     header {
-      background-color: 	#F8C8DC		;
-      color: white;
+      background-color: #F8C8DC;
       padding: 20px;
       text-align: center;
     }
-
+    
     header nav ul {
       list-style: none;
       display: flex;
       justify-content: center;
-      padding: 0;
-      margin: 0;
+      padding: 10;
+      margin: 3;
     }
 
     header nav ul li {
@@ -43,7 +49,7 @@
     header nav ul li a {
       text-decoration: none;
       color: black;
-      font-size: 1.5em; /* Increased font size here */
+      font-size: 25px; 
       padding: 10px 20px;
       display: inline-block;
       transition: all 0.3s ease;
@@ -57,18 +63,11 @@
       transform: scale(1.1);
     }
 
-    /* Active state (optional) */
-    header nav ul li a.active {
-      background-color: #0056b3;
-      color: #fff;
-    }
-
     h1 {
       color: #0056b3;
-      font-size: 44px; /* Increased font size for header */
+      font-size: 44px; 
     }
     
-   
     /* Header Text Animation */
     h1 {
       font-family: 'Playwrite NZ', cursive;
@@ -76,7 +75,7 @@
       font-weight: bold;
       color: #d40094;
       letter-spacing: 3px;
-      animation: typing 5s 1.2s forwards, ease-in-outs;
+      animation: typing 5s 1.2s forwards, ease-in-out;
       white-space: nowrap;
       overflow: hidden;
       display: inline-block;
@@ -117,13 +116,13 @@
 
     /* Apply the sliding effect */
     h2 {
-      font-size: 40px; /* Increased font size for sub-header */
+      font-size: 40px; 
       animation: slideInFromLeft 2s ease-out forwards;
     }
 
     p {
-      font-size: 24px; /* Increased font size for paragraphs */
-      animation: slideInFromLeftWithDelay 1.5s ease-out forwards; /* Delay by 0.5s */
+      font-size: 24px; 
+      animation: slideInFromLeftWithDelay 1.5s ease-out forwards; 
     }
 
     section {
@@ -187,20 +186,10 @@
       opacity: 1;
     }
 
-    .portfolio-title {
-      font-size: 1.8em; /* Increased portfolio title font size */
-      margin-bottom: 10px;
-    }
-
-    .portfolio-description {
-      font-size: 20px; /* Increased description font size */
-      padding: 0 10px;
-    }
-
     /* Apply Host Grotesk font to all <p> elements */
     p {
       font-family: 'Host Grotesk', sans-serif;
-      line-height: 1.6;
+      line-height: 1.8;
     }
 
     /* Back to Top Button */
@@ -228,12 +217,12 @@
       scroll-behavior: smooth;
     }
 
-    /* Ensure smooth scrolling behavior when clicking the Back to Top button */
+    /*  To make sure smooth scrolling behavior when clicking the Back to Top button */
     .back-to-top {
       display: block;
     }
 
-    /* Updated certificate images layout: 3 items on the top row, 3 on the bottom row */
+    /* Certificate images layout */
     .certificate-images {
       display: grid;
       grid-template-columns: repeat(3, 1fr); /* 3 columns */
@@ -244,10 +233,10 @@
 
     .certificate-item img {
       width: 120%;
-      max-width: 8000px; /* Increased max-width for larger images */
-      height: auto; /* Keep aspect ratio */
+      max-width: 8000px; 
+      height: auto; 
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 8px;
       transition: transform 0.3s ease-in-out;
     }
 
@@ -258,7 +247,7 @@
 
   </style>
 </head>
-<body id="top">
+  
   <!-- Header -->
   <header>
     <nav>
@@ -267,6 +256,7 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#certificates">Certificates</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#exprience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -277,7 +267,7 @@
 <section id="home" style="padding: 50px 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center">
   
   <!-- Heading (Welcome Text) -->
-  <h2 style="font-size: 3.5em; color: #0056b3; font-weight: 600; margin-bottom: 30px; text-align: center;">
+  <h2 style="font-size: 53; color: #0056b3; font-weight: 553; margin-bottom: 30px; text-align: center;">
     Welcome to Anushka's Portfolio!
   </h2>
 
@@ -286,7 +276,7 @@
     
     <!-- Text Content -->
     <div class="home-text" style="flex: 1; padding: 20px; text-align: left; max-width: 600px;">
-      <p style="font-size: 21px; line-height: 1.6; color: #000000;">
+      <p style="font-size: 26px; line-height: 1.6; color: #000000;">
         Hey! I am Anushka Kshirsagar and welcome to my creative space! As a Global Business and Digital Arts student at the University of Waterloo, I thrive on bringing unique ideas to life through design and prototypes. I've competed in 20 hackathons across Canada, built winning projects, and loved every second of problem-solving! I am excited to share my passion and projects with you!
       </p>
     </div>
@@ -303,9 +293,9 @@
   <div class="projects-container" style="max-width: 1200px; margin: auto;">
     <h2 style="text-align: center; font-size: 3em; color: #0056b3; font-weight: 700; margin-bottom: 50px;">My Projects</h2>
 
-    <!-- Project 1 -->
+    <!-- Project 1: BreakTheIce -->
     <div class="project-card" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); overflow: hidden; margin-bottom: 40px;">
-      <div class="project-images" style="display: flex; justify-content: space-between; padding: 20px;">
+      <div class="project-images" style="display: flex; justify-content: space-between; padding: 28px;">
         <div class="image-container" style="flex: 1; position: relative;">
           <img src="screen1.jpg" alt="Re-Branding Palmolive" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
         </div>
@@ -314,13 +304,13 @@
         </div>
       </div>
       <div class="project-info" style="padding: 20px;">
-        <h3 style="font-size: 2.2em; color: #0056b3; margin-bottom: 15px;">BreakTheIce- Hackathon UI Project</h3>
-        <p style="font-size: 1.1em; line-height: 1.7; color: #555;">Award-winning UI design for an intuitive icebreaker activity app that helps teams build stronger connections through fun and engaging challenges...</p>
+        <h3 style="font-size: 30px; color: #0056b3; margin-bottom: 15px;">BreakTheIce- Hackathon UI Project</h3>
+        <p style="font-size: 20px; line-height: 1.7; color: #555;">Award-winning UI design for an intuitive icebreaker activity app that helps teams build stronger connections through fun and engaging challenges.🧠 WeBrokeTheIce centralizes icebreaker ideas for easy access and intuitive step-by-step instructions. It also allows users to select a combination of tags which will send a request to Google Gemini for an icebreaker that meets all the selected criteria. Upon satisfaction, the user will accept the request and it will be added to a global database. ⚒️  The front end and the UI prototype were built with Figma, Abode Creative Suite, and other designing skills learned in my first year at the University of Waterloo</p>
         <a href="https://devpost.com/software/breaktheice" target="_blank" class="view-project-link">View Project</a>
       </div>
     </div>
 
-    <!-- Project 2 -->
+    <!-- Project 2: Ignite -->
     <div class="project-card" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); overflow: hidden; margin-bottom: 40px;">
       <div class="project-images" style="display: flex; justify-content: space-between; padding: 20px;">
         <div class="image-container" style="flex: 1; position: relative;">
@@ -331,13 +321,13 @@
         </div>
       </div>
       <div class="project-info" style="padding: 20px;">
-        <h3 style="font-size: 2.2em; color: #0056b3; margin-bottom: 15px;">Ignite Habit Tracker</h3>
-        <p style="font-size: 1.1em; line-height: 1.7; color: #555;">A gamified app that makes habit tracking fun and accessible. Users can track their habits and receive rewards for consistency...</p>
+        <h3 style="font-size: 30px; color: #0056b3; margin-bottom: 15px;">Ignite Habit Tracker</h3>
+        <p style="font-size: 20px; line-height: 1.7; color: #555;">A gamified app that makes habit tracking fun and accessible. Users can track their habits and receive rewards for consistency, encouraging positive behavior changes through fun challenges designed and lauched on Figma.🏆Won 2nd place winner at the University of Waterloo’s First Women+ in Tech Hackathon, where teammates and I built a gamified habit-tracking app.</p>
         <a href="https://devpost.com/software/ignite-d7ofmh" target="_blank" class="view-project-link">View Project</a>
       </div>
     </div>
 
-    <!-- Project 3 -->
+    <!-- Project 3: Re-brand-->
     <div class="project-card" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); overflow: hidden; margin-bottom: 40px;">
       <div class="project-images" style="display: flex; justify-content: space-between; padding: 20px;">
         <div class="image-container" style="flex: 1; position: relative;">
@@ -348,13 +338,13 @@
         </div>
       </div>
       <div class="project-info" style="padding: 20px;">
-        <h3 style="font-size: 2.2em; color: #0056b3; margin-bottom: 15px;">Re-Branding Project</h3>
-        <p style="font-size: 1.1em; line-height: 1.7; color: #555;">My big idea for rebranding Palmolive is centered around positioning the brand with a unique scientific and playful identity...</p>
+        <h3 style="font-size: 30px; color: #0056b3; margin-bottom: 15px;">Re-Branding Project</h3>
+        <p style="font-size: 20px; line-height: 1.7; color: #555;">🫧 MY BIG idea for rebranding Palmolive is centered around positioning the brand with a unique scientific and playful identity that stands out distinctly from its competitors.💡To differentiate Palmolive in the consumer and competitor landscape by creating a unique, memorable position. This strategy moves away from the typical "shiny clean, sun rays" images and leans into a scientific, playful narrative</p>
         <a href="https://drive.google.com/drive/folders/1if8kZSu9Dsz9c_d_Lb5W3KAcnkq3AqKN" target="_blank" class="view-project-link">View Project</a>
       </div>
     </div>
     
-    <!-- Project 4 -->
+    <!-- Project 4: ProdCon-->
     <div class="project-card" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); overflow: hidden; margin-bottom: 40px;">
       <div class="project-images" style="display: flex; justify-content: space-between; padding: 20px;">
         <div class="image-container" style="flex: 1; position: relative;">
@@ -365,8 +355,8 @@
         </div>
       </div>
       <div class="project-info" style="padding: 20px;">
-        <h3 style="font-size: 2.2em; color: #0056b3; margin-bottom: 15px;">Product Management Case Study</h3>
-        <p style="font-size: 1.1em; line-height: 1.7; color: #555;">Took part in ProdCon, a product management competition at Waterloo, where my team worked on a case study for TD's Immersive Learning Program...</p>
+        <h3 style="font-size: 30px; color: #0056b3; margin-bottom: 15px;">Product Management Case Study</h3>
+        <p style="font-size: 20px; line-height: 1.7; color: #555;">💡Took part in ProdCon, a product management competition at Waterloo, where my team worked on a case study for TD's Immersive Learning Program. I helped lead our group in developing a solution and presented our ideas to a panel of judges. It was a great learning experience that improved my problem-solving and communication skills, plus I got to network with industry professionals. We learned deeply about the new AI and modern TD banking strategies using Machine Leaning and AI.</p>
         <a href="https://www.canva.com/design/DAGWqlqwvcU/istLTKiz3Uo8MErevBP6tw/view?utm_content=DAGWqlqwvcU&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="view-project-link">View Project</a>
       </div>
     </div>
@@ -374,26 +364,24 @@
   </div>
 </section>
 
-<!-- CSS for hover effect -->
+<!-- "View Project" hover effect -->
 <style>
   .view-project-link {
     color: #00bcd4;
     font-size: 20px;
     text-decoration: none;
     font-weight: 600;
-    transition: color 0.3s ease;
   }
 
   .view-project-link:hover {
     color: #ff5722; /* Change color on hover */
   }
+  
   .project-info {
-    text-align: center; /* Center-align all content inside project-info */
+    text-align: center;
+  }
   
 </style>
-
-
-  
 
 <!-- Styles for Hover Effects -->
 <style>
@@ -407,7 +395,7 @@
   
   .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 12px 30px;
   }
 
   .image-overlay {
@@ -421,10 +409,11 @@
 </style>
 
   <!-- Certificates Section -->
-  <section id="certificates">
-    <h2><center> Certificates and Achievements</h2></center>
-    <p>Below are the certificates and recent achievements:</p>
-    
+<section id="certificates">
+  <h2 style="color: #0056b3; text-align: center;">Certificates and Achievements</h2>
+  <p>Below are the certificates and recent achievements:</p>
+</section>
+
     <!-- List of Achievements -->
     <ul>
       <li><p>Won the Best User-Interface at the Google Developer Student Hackathon at the University of Guelph</li></p>
@@ -434,6 +423,7 @@
 
     <!-- Certificate Images in a grid layout -->
     <div class="certificate-images">
+      
       <!-- Certificate 1 -->
       <div class="certificate-item">
         <img src="quantum certificate.jpg" alt="QSYS course certificate">
@@ -467,75 +457,48 @@
   </section>
 
  <!-- About Section -->
-<section id="about" style="padding: 50px 20px; background-color: #f9f9f9;">
+<section id="about" style="padding: 50px 30px; background-color: #f9f9f9;">
   <div class="about-container" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; max-width: 1200px; margin: auto;">
     
     <!-- Text Content -->
     <div class="about-text" style="flex: 1; padding: 20px; max-width: 600px;">
       <h2 style="font-size: 50px; color: #0056b3; font-weight: 600; margin-bottom: 15px;"><center>About Me</h2> </center>
-      <p style="font-size: 19.2px; line-height: 1.6; color: #333;">I’m the kind of person who sees every blank screen as an opportunity to craft something amazing—whether it’s a sleek UI, a vibrant marketing campaign, or the perfect font combo that makes everything sing. From leading hackathon design teams to starting a 2nd North American small business consulting chapter 'REM on Campus' here at the University of Waterloo, I thrive in creative chaos and love bringing bold visions to life.</p>
+      <p style="font-size: 20px; line-height: 1.6; color: #333;">I’m the kind of person who sees every blank screen as an opportunity to craft something amazing—whether it’s a sleek UI, a vibrant marketing campaign, or the perfect font combo that makes everything sing. From leading hackathon design teams to starting a 2nd North American small business consulting chapter 'REM on Campus' here at the University of Waterloo, I thrive in creative chaos and love bringing bold visions to life.</p>
       
       <h3 style="font-size: 40px; color: #d40094; font-weight: 600;"><center> Design Philosophy</h3></center>
-      <p style="font-size: 1.2em; line-height: 1.6; color: #333;">I believe design is more than aesthetics—it's about problem-solving, empathy, and connection. For me, great design begins with understanding users on a deeper level, building trust, and crafting solutions that are as intuitive as they are impactful. Whether I’m designing a sleek interface or brainstorming a business idea, I aim to strike a balance between creativity, functionality, and inclusivity.</p>
+      <p style="font-size: 20px; line-height: 1.6; color: #333;">I believe design is more than aesthetics—it's about problem-solving, empathy, and connection. For me, great design begins with understanding users on a deeper level, building trust, and crafting solutions that are as intuitive as they are impactful. Whether I’m designing a sleek interface or brainstorming a business idea, I aim to strike a balance between creativity, functionality, and inclusivity.</p>
     </div>
 
     <!-- Image Section -->
-    <div class="about-image" style="flex: 1; padding: 20px; display: flex; justify-content: center; align-items: center;">
-      <img src="about me.jpg" alt="Anushka's Photo" style="max-width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); width: 800px;">
+    <div class="about-image" style="flex: 1; padding: 20px;center; align-items:;">
+      <img src="about me.jpg" alt="Anushka's Photo" style="max-width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 10px width: 800px;">
     </div>
   </div>
 </section>
 
-  <!-- Contact Section -->
-  <section id="contact" style="background-image: url('https://your-image-url.jpg'); background-size: cover; background-position: center center; padding: 40px 0; color: white;">
-    <div style="text-align: center; background: rgba(0, 0, 0, 0.5); padding: 30px; border-radius: 10px; max-width: 600px; margin: auto;">
-      <h2 style="font-size: 2em; font-weight: 600; margin-bottom: 20px;">Contact Me</h2>
-      <p style="font-size: 1.1em; margin-bottom: 20px;">Feel free to reach out to me via email or connect with me on social media!</p>
 
-      <!-- Icons with links -->
-      <div style="display: flex; justify-content: center; gap: 20px;">
-        
-        <!-- Instagram Icon -->
-        <a href="https://www.instagram.com/anxshka.k/" target="_blank" style="text-decoration: none;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" style="width: 40px; height: 40px; transition: transform 0.3s ease;">
-        </a>
-        
-        <!-- LinkedIn Icon -->
-        <a href="https://www.linkedin.com/in/anushka-kshirsagar211/" target="_blank" style="text-decoration: none;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" style="width: 40px; height: 40px; transition: transform 0.3s ease;">
-        </a>
-      </div>
-
-      <div style="margin-top: 20px;">
-        <p>Email me at: <a href="mailto:akshirsa@uwaterloo.ca" style="color: #00bcd4; text-decoration: none;">akshirsa@uwaterloo.ca</a></p>
-      </div>
-    </div>
-  </section>
-  
-
-  <title>Skill Table</title>
+<!--HTML table with information-->
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family:'Host Grotesk', sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f4f4f9;
     }
 
     table {
-      width: 80%;
+      width: 90%;
       margin: 50px auto;
       border-collapse: collapse;
       background-color: #d442c3;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 10px;
     }
 
     th, td {
       padding: 15px 20px;
       text-align: left;
-      font-size: 18px;
-      border-bottom: 1px solid #ddd;
+      font-size: 20px;
+      border-bottom: 1px solid #9e0587;
     }
 
     th {
@@ -553,7 +516,6 @@
       color: #00bcd4;
       font-weight: 600;
       text-decoration: none;
-      transition: color 0.3s ease;
     }
 
     td a:hover {
@@ -563,13 +525,100 @@
     tr:hover td {
       background-color: #f1f1f1;
     }
+  </style>
+<body>
 
-    tr:last-child td {
-      border-bottom: none;
+  
+<!-- Anushka's Experience -->
+  <style>
+    body {
+      font-family: 'Host Grotesk', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px 10px;
+      font-size: 40px;
+      color: #0056b3;
+    }
+
+    .experience-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .experience-box {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 280px;
+      padding: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .experience-box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .experience-box h2 {
+      font-size: 1.3em;
+      margin-bottom: 10px;
+      color: #0056b3;
+    }
+
+    .experience-box p {
+      font-size: 0.9em;
+      color: #555;
+      line-height: 1.4;
     }
   </style>
 </head>
 <body>
+  
+  
+  <!-- Experience Section -->
+  <h1>My Experience</h1>
+  <div class="experience-container">
+    <!-- Rem And Company -->
+    <div class="experience-box">
+      <h2>Rem And Company</h2>
+      <p>Co-founded a small business consulting chapter, helping local businesses grow through tailored strategies and design solutions.</p>
+    </div>
+
+    <!-- Rotary International -->
+    <div class="experience-box">
+      <h2>Rotary International</h2>
+      <p>Contributed to global service initiatives, focusing on community development and youth leadership programs.</p>
+    </div>
+
+    <!-- Student Ambassador -->
+    <div class="experience-box">
+      <h2>Student Ambassador</h2>
+      <p>Led campus tours and supported Open House events, fostering connections with prospective students and families.</p>
+    </div>
+
+    <!-- Action For World -->
+    <div class="experience-box">
+      <h2>Action For World</h2>
+      <p>Collaborated on projects aimed at social impact, focusing on sustainability, awareness campaigns, and youth empowerment.</p>
+    </div>
+  </div>
+</body>
+</html>
+
+  
 
 <table>
   <tr>
@@ -595,6 +644,33 @@
 </body>
 </html>
 
+<!-- Contact Section -->
+  <section id="contact" style="background-image: url('https://your-image-url.jpg'); background-size: cover; background-position: center center; padding: 40px 0; color: white;">
+    <div style="text-align: center; background: rgba(0, 0, 0, 0.5); padding: 30px; border-radius: 10px; max-width: 600px; margin: auto;">
+      <h2 style="font-size: 2em; font-weight: 600; margin-bottom: 20px;">Contact Me</h2>
+      <p style="font-size: 1.1em; margin-bottom: 20px;">Feel free to reach out to me via email or connect with me on social media!</p>
+
+      <!-- Icons with links -->
+      <div style="display: flex; justify-content: center; gap: 20px;">
+        
+        <!-- Instagram Icon -->
+        <a href="https://www.instagram.com/anxshka.k/" target="_blank" style="text-decoration: none;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" style="width: 40px; height: 40px; transition: transform 0.3s ease;">
+        </a>
+        
+        <!-- LinkedIn Icon -->
+        <a href="https://www.linkedin.com/in/anushka-kshirsagar211/" target="_blank" style="text-decoration: none;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" style="width: 40px; height: 40px; transition: transform 0.3s ease;">
+        </a>
+      </div>
+
+      <div style="margin-top: 20px;">
+        <p>Email me at: <a href="mailto:akshirsa@uwaterloo.ca" style="color: #00bcd4; text-decoration: none;">akshirsa@uwaterloo.ca</a></p>
+      </div>
+    </div>
+  </section>
+
+  
   <!-- Footer -->
   <footer>
     <p>&copy; 2024 Anushka Kshirsagar. All Rights Reserved.</p>
