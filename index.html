@@ -2,10 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
       <!-- Created by Anushka Kshirsagar on 2024-11-10 -->
-  
   <title>Anushka Kshirsagar - Portfolio</title>
 
   <!-- Link to Host Grotesk font -->
@@ -13,6 +10,21 @@
   
   <!-- Link to Playwrite NZ font -->
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ&display=swap" rel="stylesheet">
+  
+    <!-- Link to Playfair Display -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* Apply Playfair Display font to the h2 element */
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 53px; 
+      color: #0056b3; 
+      font-weight: 600; 
+      margin-bottom: 30px; 
+      text-align: center; 
+    }
+  </style>
 
   <style>
     /* General Styles */
@@ -216,8 +228,7 @@
     body {
       scroll-behavior: smooth;
     }
-
-    /*  To make sure smooth scrolling behavior when clicking the Back to Top button */
+    
     .back-to-top {
       display: block;
     }
@@ -248,234 +259,7 @@
   </style>
 </head>
   
-  <!-- Header -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#certificates">Certificates</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <h1>Anushka Kshirsagar</h1>
-  </header>
-
- <!-- Home Section -->
-<section id="home" style="padding: 50px 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center">
-  
-  <!-- Heading (Welcome Text) -->
-  <h2 style="font-size: 53; color: #0056b3; font-weight: 553; margin-bottom: 30px; text-align: center;">
-    Welcome to Anushka's Portfolio!
-  </h2>
-
-  <!-- Main Content Container -->
-  <div class="home-container" style="max-width: 1200px; margin: auto; display: flex; flex-direction: row; align-items: center; justify-content: center; flex-wrap: wrap; gap: 30px;">
-    
-    <!-- Text Content -->
-    <div class="home-text" style="flex: 1; padding: 20px; text-align: left; max-width: 600px;">
-      <p style="font-size: 26px; line-height: 1.6; color: #000000;">
-        Hey! I am Anushka Kshirsagar and welcome to my creative space! As a Global Business and Digital Arts student at the University of Waterloo, I thrive on bringing unique ideas to life through design and prototypes. I've competed in 20 hackathons across Canada, built winning projects, and loved every second of problem-solving! I am excited to share my passion and projects with you!
-      </p>
-    </div>
-
-    <!-- Image Section -->
-    <div class="home-image" style="flex: 1; padding: 20px; display: flex; justify-content: center; align-items: center;">
-      <img src="my photo.jpg" alt="Anushka's Photo" style="max-width: 200%; border-radius: 20px; width: 380px;">
-    </div>
-  </div>
-</section>
-
-<!-- Projects Section -->
-<section id="projects">
-  <div class="projects-container" style="max-width: 1200px; margin: auto;">
-    <h2 style="text-align: center; font-size: 3em; color: #0056b3; font-weight: 700; margin-bottom: 50px;">My Projects</h2>
-
-    <!-- Project 1: BreakTheIce -->
-    <div class="project-card" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); overflow: hidden; margin-bottom: 40px;">
-      <div class="project-images" style="display: flex; justify-content: space-between; padding: 28px;">
-        <div class="image-container" style="flex: 1; position: relative;">
-          <img src="screen1.jpg" alt="Re-Branding Palmolive" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
-        </div>
-        <div class="image-container" style="flex: 1; position: relative;">
-          <img src="screen2.jpg" alt="Re-Branding Palmolive" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
-        </div>
-      </div>
-      <div class="project-info" style="padding: 20px;">
-        <h3 style="font-size: 30px; color: #0056b3; margin-bottom: 15px;">BreakTheIce- Hackathon UI Project</h3>
-        <p style="font-size: 20px; line-height: 1.7; color: #555;">Award-winning UI design for an intuitive icebreaker activity app that helps teams build stronger connections through fun and engaging challenges.🧠 WeBrokeTheIce centralizes icebreaker ideas for easy access and intuitive step-by-step instructions. It also allows users to select a combination of tags which will send a request to Google Gemini for an icebreaker that meets all the selected criteria. Upon satisfaction, the user will accept the request and it will be added to a global database. ⚒️  The front end and the UI prototype were built with Figma, Abode Creative Suite, and other designing skills learned in my first year at the University of Waterloo</p>
-        <a href="https://devpost.com/software/breaktheice" target="_blank" class="view-project-link">View Project</a>
-      </div>
-    </div>
-
-    <!-- Project 2: Ignite -->
-    <div class="project-card" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); overflow: hidden; margin-bottom: 40px;">
-      <div class="project-images" style="display: flex; justify-content: space-between; padding: 20px;">
-        <div class="image-container" style="flex: 1; position: relative;">
-          <img src="gallery.jpg" alt="Ignite Habit Tracker" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
-        </div>
-        <div class="image-container" style="flex: 1; position: relative;">
-          <img src="file (1).jpg" alt="Ignite Habit Tracker" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
-        </div>
-      </div>
-      <div class="project-info" style="padding: 20px;">
-        <h3 style="font-size: 30px; color: #0056b3; margin-bottom: 15px;">Ignite Habit Tracker</h3>
-        <p style="font-size: 20px; line-height: 1.7; color: #555;">A gamified app that makes habit tracking fun and accessible. Users can track their habits and receive rewards for consistency, encouraging positive behavior changes through fun challenges designed and lauched on Figma.🏆Won 2nd place winner at the University of Waterloo’s First Women+ in Tech Hackathon, where teammates and I built a gamified habit-tracking app.</p>
-        <a href="https://devpost.com/software/ignite-d7ofmh" target="_blank" class="view-project-link">View Project</a>
-      </div>
-    </div>
-
-    <!-- Project 3: Re-brand-->
-    <div class="project-card" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); overflow: hidden; margin-bottom: 40px;">
-      <div class="project-images" style="display: flex; justify-content: space-between; padding: 20px;">
-        <div class="image-container" style="flex: 1; position: relative;">
-          <img src="palmolive social.jpg" alt="BreakTheIce Hackathon" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
-        </div>
-        <div class="image-container" style="flex: 1; position: relative;">
-          <img src="palmolive website.jpg" alt="BreakTheIce Hackathon" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
-        </div>
-      </div>
-      <div class="project-info" style="padding: 20px;">
-        <h3 style="font-size: 30px; color: #0056b3; margin-bottom: 15px;">Re-Branding Project</h3>
-        <p style="font-size: 20px; line-height: 1.7; color: #555;">🫧 MY BIG idea for rebranding Palmolive is centered around positioning the brand with a unique scientific and playful identity that stands out distinctly from its competitors.💡To differentiate Palmolive in the consumer and competitor landscape by creating a unique, memorable position. This strategy moves away from the typical "shiny clean, sun rays" images and leans into a scientific, playful narrative</p>
-        <a href="https://drive.google.com/drive/folders/1if8kZSu9Dsz9c_d_Lb5W3KAcnkq3AqKN" target="_blank" class="view-project-link">View Project</a>
-      </div>
-    </div>
-    
-    <!-- Project 4: ProdCon-->
-    <div class="project-card" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); overflow: hidden; margin-bottom: 40px;">
-      <div class="project-images" style="display: flex; justify-content: space-between; padding: 20px;">
-        <div class="image-container" style="flex: 1; position: relative;">
-          <img src="prodcon.jpg" alt="BreakTheIce Hackathon" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
-        </div>
-        <div class="image-container" style="flex: 1; position: relative;">
-          <img src="product+design.jpg" alt="BreakTheIce Hackathon" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
-        </div>
-      </div>
-      <div class="project-info" style="padding: 20px;">
-        <h3 style="font-size: 30px; color: #0056b3; margin-bottom: 15px;">Product Management Case Study</h3>
-        <p style="font-size: 20px; line-height: 1.7; color: #555;">💡Took part in ProdCon, a product management competition at Waterloo, where my team worked on a case study for TD's Immersive Learning Program. I helped lead our group in developing a solution and presented our ideas to a panel of judges. It was a great learning experience that improved my problem-solving and communication skills, plus I got to network with industry professionals. We learned deeply about the new AI and modern TD banking strategies using Machine Leaning and AI.</p>
-        <a href="https://www.canva.com/design/DAGWqlqwvcU/istLTKiz3Uo8MErevBP6tw/view?utm_content=DAGWqlqwvcU&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="view-project-link">View Project</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- "View Project" hover effect -->
-<style>
-  .view-project-link {
-    color: #00bcd4;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 600;
-  }
-
-  .view-project-link:hover {
-    color: #ff5722; /* Change color on hover */
-  }
-  
-  .project-info {
-    text-align: center;
-  }
-  
-</style>
-
-<!-- Styles for Hover Effects -->
-<style>
-  .project-card:hover .image-overlay {
-    opacity: 1;
-  }
-
-  .image-container:hover img {
-    transform: scale(1.05);
-  }
-  
-  .project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 30px;
-  }
-
-  .image-overlay {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  .project-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-</style>
-
-  <!-- Certificates Section -->
-  <section id="certificates"> 
-    <h2 style="color: #0056b3; text-align: center;">Certificates and Achievements</h2>
-    <p>Below are the certificates and recent achievements:</p>
-    
-    <!-- List of Achievements -->
-    <ul>
-      <li><p>Won the Best User-Interface at the Google Developer Student Hackathon at the University of Guelph</li></p>
-    <li> <p> I've been selected as the Lead Designer and Marketing Strategist for Hack Canada, the first-ever Canadian hackathon dedicated to solving national issues.</p></li>
-      <li> <p>Started the 2nd North America REM on Campus Accelerator Program at the University of Waterloo, focusing on learning, applying, and leading. We help small businesses through consulting and strategic guidance to empower their growth.</p></li>
-    </ul>
-
-    <!-- Certificate Images in a grid layout -->
-    <div class="certificate-images">
-      <!-- Certificate 1 -->
-      <div class="certificate-item">
-        <img src="quantum certificate.jpg" alt="QSYS course certificate">
-      </div>
-
-      <!-- Certificate 2 -->
-      <div class="certificate-item">
-        <img src="BLV certificate.jpg" alt="Leadership Certificate">
-      </div>
-
-      <!-- Certificate 3 -->
-      <div class="certificate-item">
-        <img src="Merit certificate.jpg" alt="Merit Busary Certificate">
-      </div>
-
-      <!-- Certificate 4 -->
-      <div class="certificate-item">
-        <img src="CPF certificate.jpg" alt="Canadian French certificate">
-      </div>
-
-      <!-- Certificate 5 -->
-      <div class="certificate-item">
-        <img src="HOYA hacks certificate.jpg" alt="Hackathon Certificate">
-      </div>
-
-      <!-- Certificate 6 -->
-      <div class="certificate-item">
-        <img src="hacakthon certificate.jpg" alt="Hackathon Certificate">
-      </div>
-    </div>
-  </section>
-
-
- <!-- About Section -->
-<section id="about" style="padding: 50px 30px; background-color: #f9f9f9;">
-  <div class="about-container" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; max-width: 1200px; margin: auto;">
-    
-    <!-- Text Content -->
-    <div class="about-text" style="flex: 1; padding: 20px; max-width: 600px;">
-      <h2 style="font-size: 50px; color: #0056b3; font-weight: 600; margin-bottom: 15px;"><center>About Me</h2> </center>
-      <p style="font-size: 20px; line-height: 1.6; color: #333;">I’m the kind of person who sees every blank screen as an opportunity to craft something amazing—whether it’s a sleek UI, a vibrant marketing campaign, or the perfect font combo that makes everything sing. From leading hackathon design teams to starting a 2nd North American small business consulting chapter 'REM on Campus' here at the University of Waterloo, I thrive in creative chaos and love bringing bold visions to life.</p>
-      
-      <h3 style="font-size: 40px; color: #d40094; font-weight: 600;"><center> Design Philosophy</h3></center>
-      <p style="font-size: 20px; line-height: 1.6; color: #333;">I believe design is more than aesthetics—it's about problem-solving, empathy, and connection. For me, great design begins with understanding users on a deeper level, building trust, and crafting solutions that are as intuitive as they are impactful. Whether I’m designing a sleek interface or brainstorming a business idea, I aim to strike a balance between creativity, functionality, and inclusivity.</p>
-    </div>
-
-    <!-- Image Section -->
-    <div class="about-image" style="flex: 1; padding: 20px;center; align-items:;">
-      <img src="about me.jpg" alt="Anushka's Photo" style="max-width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 10px width: 800px;">
-    </div>
-  </div>
-</section>
-
- 
-<!-- Anushka's Experience -->
+<!--My Experience -->
   <style>
     body {
       font-family: 'Host Grotesk', sans-serif;
@@ -488,7 +272,7 @@
     h1 {
       text-align: center;
       margin: 20px 10px;
-      font-size: 40px;
+      font-size: 50px;
       color: #0056b3;
     }
 
@@ -504,13 +288,12 @@
 
     .experience-box {
       background-color: #fff;
-      border: 1px solid #ddd;
+      border: 3px solid #d40094;
       border-radius: 10px;
       width: 280px;
       padding: 15px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       text-align: center;
-      transition: all 0.3s ease;
     }
 
     .experience-box:hover {
@@ -519,52 +302,18 @@
     }
 
     .experience-box h2 {
-      font-size: 1.3em;
+      font-size: 25px;
       margin-bottom: 10px;
       color: #0056b3;
     }
 
     .experience-box p {
-      font-size: 0.9em;
+      font-size: 20px;
       color: #555;
-      line-height: 1.4;
+      line-height: 1.6;
     }
   </style>
-</head>
 <body>
-  
-  
-  <!-- Experience Section -->
-  <section id="experience">
-  <h1>My Experience</h1>
-  <div class="experience-container">
-    <!-- Rem And Company -->
-    <div class="experience-box">
-      <h2>Rem And Company</h2>
-      <p>Co-founded a small business consulting chapter, helping local businesses grow through tailored strategies and design solutions.</p>
-    </div>
-
-    <!-- Rotary International -->
-    <div class="experience-box">
-      <h2>Rotary International</h2>
-      <p>Contributed to global service initiatives, focusing on community development and youth leadership programs.</p>
-    </div>
-
-    <!-- Student Ambassador -->
-    <div class="experience-box">
-      <h2>Student Ambassador</h2>
-      <p>Led campus tours and supported Open House events, fostering connections with prospective students and families.</p>
-    </div>
-
-    <!-- Action For World -->
-    <div class="experience-box">
-      <h2>Action For World</h2>
-      <p>Collaborated on projects aimed at social impact, focusing on sustainability, awareness campaigns, and youth empowerment.</p>
-    </div>
-  </div>
-</body>
-</html>
-
   
 <!--HTML table with information-->
   <style>
@@ -617,6 +366,267 @@
   </style>
 <body>
   
+  
+<!-- "View Project" hover effect -->
+<style>
+  .view-project-link {
+    color: #00bcd4;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .view-project-link:hover {
+    color: #ff5722; 
+  }
+  
+  .project-info {
+    text-align: center;
+  }
+  
+</style>
+
+<!-- Styles for Hover Effects -->
+<style>
+  .project-card:hover .image-overlay {
+    opacity: 1;
+  }
+
+  .image-container:hover img {
+    transform: scale(1.05);
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px;
+  }
+
+  .image-overlay {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+</style>
+  
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Anushka Kshirsagar</h1>
+  </header>
+
+ <!-- Home Section -->
+<section id="home" style="padding: 50px 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center">
+  
+  <!-- Heading-->
+  <h2 style="font-size: 53; color: #0056b3; font-weight: 553; margin-bottom: 30px; text-align: center;">
+    Welcome to Anushka's Portfolio!
+  </h2>
+
+  <!-- Main Content Container -->
+  <div class="home-container" style="max-width: 1200px; margin: auto; display: flex; flex-direction: row; align-items: center; justify-content: center; flex-wrap: wrap; gap: 30px;">
+    
+    <!-- Text Content -->
+    <div class="home-text" style="flex: 1; padding: 20px; text-align: left; max-width: 600px;">
+      <p style="font-size: 26px; line-height: 1.6; color: #000000;">
+        Hey! I am Anushka Kshirsagar and welcome to my creative space! As a Global Business and Digital Arts student at the University of Waterloo, I thrive on bringing unique ideas to life through design and prototypes. I've competed in 20 hackathons across Canada, built winning projects, and loved every second of problem-solving! I am excited to share my passion and projects with you!
+      </p>
+    </div>
+
+    <!-- Image Section -->
+    <div class="home-image" style="flex: 1; padding: 20px; display: flex; justify-content: center; align-items: center;">
+      <img src="my photo.jpg" alt="Anushka's Photo" style="max-width: 200%; border-radius: 20px; width: 380px;">
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <div class="projects-container" style="max-width: 1200px; margin: auto;">
+    <h2 style="text-align: center; font-size: 3em; color: #0056b3; font-weight: 700; margin-bottom: 50px;">My Projects</h2>
+
+    <!-- Project 1: BreakTheIce -->
+    <div class="project-card" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); overflow: hidden; margin-bottom: 40px;">
+      <div class="project-images" style="display: flex; justify-content: space-between; padding: 28px;">
+        <div class="image-container" style="flex: 1; position: relative;">
+          <img src="screen1.jpg" alt="Hackathon snipshot 1" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
+        </div>
+        <div class="image-container" style="flex: 1; position: relative;">
+          <img src="screen2.jpg" alt="Hackathon snipshot 2" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
+        </div>
+      </div>
+      <div class="project-info" style="padding: 20px;">
+        <h3 style="font-size: 30px; color: #0056b3; margin-bottom: 15px;">BreakTheIce- Hackathon UI Project</h3>
+        <p style="font-size: 20px; line-height: 1.7; color: #555;">Award-winning UI design for an intuitive icebreaker activity app that helps teams build stronger connections through fun and engaging challenges.🧠 WeBrokeTheIce centralizes icebreaker ideas for easy access and intuitive step-by-step instructions. It also allows users to select a combination of tags which will send a request to Google Gemini for an icebreaker that meets all the selected criteria. Upon satisfaction, the user will accept the request and it will be added to a global database. ⚒️  The front end and the UI prototype were built with Figma, Abode Creative Suite, and other designing skills learned in my first year at the University of Waterloo</p>
+        <a href="https://devpost.com/software/breaktheice" target="_blank" class="view-project-link">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 2: Ignite -->
+    <div class="project-card" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); overflow: hidden; margin-bottom: 40px;">
+      <div class="project-images" style="display: flex; justify-content: space-between; padding: 20px;">
+        <div class="image-container" style="flex: 1; position: relative;">
+          <img src="gallery.jpg" alt="Ignite Habit Tracker screenshot" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
+        </div>
+        <div class="image-container" style="flex: 1; position: relative;">
+          <img src="file (1).jpg" alt="Ignite Habit Tracker" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
+        </div>
+      </div>
+      <div class="project-info" style="padding: 20px;">
+        <h3 style="font-size: 30px; color: #0056b3; margin-bottom: 15px;">Ignite Habit Tracker</h3>
+        <p style="font-size: 20px; line-height: 1.7; color: #555;">A gamified app that makes habit tracking fun and accessible. Users can track their habits and receive rewards for consistency, encouraging positive behavior changes through fun challenges designed and lauched on Figma.🏆Won 2nd place winner at the University of Waterloo’s First Women+ in Tech Hackathon, where teammates and I built a gamified habit-tracking app.</p>
+        <a href="https://devpost.com/software/ignite-d7ofmh" target="_blank" class="view-project-link">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 3: Re-brand-->
+    <div class="project-card" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); overflow: hidden; margin-bottom: 40px;">
+      <div class="project-images" style="display: flex; justify-content: space-between; padding: 20px;">
+        <div class="image-container" style="flex: 1; position: relative;">
+          <img src="palmolive social.jpg" alt="re-brand social" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
+        </div>
+        <div class="image-container" style="flex: 1; position: relative;">
+          <img src="palmolive website.jpg" alt="re-brand website" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
+        </div>
+      </div>
+      <div class="project-info" style="padding: 20px;">
+        <h3 style="font-size: 30px; color: #0056b3; margin-bottom: 15px;">Re-Branding Project</h3>
+        <p style="font-size: 20px; line-height: 1.7; color: #555;">🫧 MY BIG idea for rebranding Palmolive is centered around positioning the brand with a unique scientific and playful identity that stands out distinctly from its competitors.💡To differentiate Palmolive in the consumer and competitor landscape by creating a unique, memorable position. This strategy moves away from the typical "shiny clean, sun rays" images and leans into a scientific, playful narrative</p>
+        <a href="https://drive.google.com/drive/folders/1if8kZSu9Dsz9c_d_Lb5W3KAcnkq3AqKN" target="_blank" class="view-project-link">View Project</a>
+      </div>
+    </div>
+    
+    <!-- Project 4: ProdCon-->
+    <div class="project-card" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); overflow: hidden; margin-bottom: 40px;">
+      <div class="project-images" style="display: flex; justify-content: space-between; padding: 20px;">
+        <div class="image-container" style="flex: 1; position: relative;">
+          <img src="prodcon.jpg" alt="product slide" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
+        </div>
+        <div class="image-container" style="flex: 1; position: relative;">
+          <img src="product+design.jpg" alt="product thinking slide" style="width: 100%; border-radius: 10px; transition: transform 0.3s ease;">
+        </div>
+      </div>
+      <div class="project-info" style="padding: 20px;">
+        <h3 style="font-size: 30px; color: #0056b3; margin-bottom: 15px;">Product Management Case Study</h3>
+        <p style="font-size: 20px; line-height: 1.7; color: #555;">💡Took part in ProdCon, a product management competition at Waterloo, where my team worked on a case study for TD's Immersive Learning Program. I helped lead our group in developing a solution and presented our ideas to a panel of judges. It was a great learning experience that improved my problem-solving and communication skills, plus I got to network with industry professionals. We learned deeply about the new AI and modern TD banking strategies using Machine Leaning and AI.</p>
+        <a href="https://www.canva.com/design/DAGWqlqwvcU/istLTKiz3Uo8MErevBP6tw/view?utm_content=DAGWqlqwvcU&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="view-project-link">View Project</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Certificates Section -->
+  <section id="certificates"> 
+    <h2 style="color: #0056b3; text-align: center;">Certificates and Achievements</h2>
+    <p>Below are the certificates and recent achievements:</p>
+    
+    <!-- List of Achievements -->
+    <ul>
+      <li><p>Won the Best User-Interface at the Google Developer Student Hackathon at the University of Guelph</p></li>
+    <li> <p> I've been selected as the Lead Designer and Marketing Strategist for Hack Canada, the first-ever Canadian hackathon dedicated to solving national issues.</p></li>
+      <li> <p>Started the 2nd North America REM on Campus Accelerator Program at the University of Waterloo, focusing on learning, applying, and leading. We help small businesses through consulting and strategic guidance to empower their growth.</p></li>
+    </ul>
+
+    <!-- Certificate Images in a grid layout -->
+    <div class="certificate-images">
+      <!-- Certificate 1 -->
+      <div class="certificate-item">
+        <img src="quantum certificate.jpg" alt="QSYS course certificate">
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="certificate-item">
+        <img src="BLV certificate.jpg" alt="Leadership Certificate">
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="certificate-item">
+        <img src="Merit certificate.jpg" alt="Merit Busary Certificate">
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="certificate-item">
+        <img src="CPF certificate.jpg" alt="Canadian French certificate">
+      </div>
+
+      <!-- Certificate 5 -->
+      <div class="certificate-item">
+        <img src="HOYA hacks certificate.jpg" alt="Hackathon Certificate">
+      </div>
+
+      <!-- Certificate 6 -->
+      <div class="certificate-item">
+        <img src="hacakthon certificate.jpg" alt="Hackathon Certificate">
+      </div>
+    </div>
+  </section>
+
+
+ <!-- About Section -->
+<section id="about" style="padding: 50px 30px; background-color: #f9f9f9;">
+  <div class="about-container" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; max-width: 1200px; margin: auto;">
+    
+    <!-- Text Content -->
+    <div class="about-text" style="flex: 1; padding: 20px; max-width: 600px;">
+      <h2 style="font-size: 50px; color: #0056b3; font-weight: 600; margin-bottom: 15px; text-align: center;">About Me</h2>
+
+      <p style="font-size: 20px; line-height: 1.6; color: #333;">I’m the kind of person who sees every blank screen as an opportunity to craft something amazing—whether it’s a sleek UI, a vibrant marketing campaign, or the perfect font combo that makes everything sing. From leading hackathon design teams to starting a 2nd North American small business consulting chapter 'REM on Campus' here at the University of Waterloo, I thrive in creative chaos and love bringing bold visions to life.</p>
+      
+      <h3 style="font-size: 40px; color: #d40094; font-weight: 600; text-align: center;">Design Philosophy</h3>
+      <p style="font-size: 20px; line-height: 1.6; color: #333;">I believe design is more than aesthetics—it's about problem-solving, empathy, and connection. For me, great design begins with understanding users on a deeper level, building trust, and crafting solutions that are as intuitive as they are impactful. Whether I’m designing a sleek interface or brainstorming a business idea, I aim to strike a balance between creativity, functionality, and inclusivity.</p>
+    </div>
+
+    <!-- Image Section -->
+    <div class="about-image" style="flex: 1; padding: 20px;center; align-items:;">
+      <img src="about me.jpg" alt="Anushka's Photo" style="max-width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 10px width: 800px;">
+    </div>
+  </div>
+</section>
+
+  
+  <!-- Experience Section -->
+  <section id="experience">
+  <h2>My Experience</h2>
+  <div class="experience-container">
+    
+    <!-- Rem And Company -->
+    <div class="experience-box">
+      <h2>Rem And Company</h2>
+      <p>Co-founded a small business consulting chapter, helping local businesses grow through tailored strategies and design solutions.</p>
+    </div>
+
+    <!-- Rotary International -->
+    <div class="experience-box">
+      <h2>Rotary International</h2>
+      <p>Contributed to global service initiatives, focusing on community development and youth leadership program for coding.</p>
+    </div>
+
+    <!-- Student Ambassador -->
+    <div class="experience-box">
+      <h2>Student Ambassador</h2>
+      <p>Led campus tours and supported Open House events, promoting connections with prospective students and families at the University of Waterloo.</p>
+    </div>
+
+    <!-- Action For World -->
+    <div class="experience-box">
+      <h2>Action For World</h2>
+      <p>Collaborated on projects aimed at social impact, focusing on sustainability, awareness campaigns, and youth empowerment.</p>
+    </div>
+  </div>
+  
+
+    <!-- HTML table with skills-->
 <table>
   <tr>
     <th>Category</th>
@@ -638,26 +648,24 @@
   </tr>
 </table>
 
-</body>
-</html>
 
 <!-- Contact Section -->
   <section id="contact" style="background-image: url('https://your-image-url.jpg'); background-size: cover; background-position: center center; padding: 40px 0; color: white;">
-    <div style="text-align: center; background: rgba(0, 0, 0, 0.5); padding: 30px; border-radius: 10px; max-width: 600px; margin: auto;">
-      <h2 style="font-size: 2em; font-weight: 600; margin-bottom: 20px;">Contact Me</h2>
-      <p style="font-size: 1.1em; margin-bottom: 20px;">Feel free to reach out to me via email or connect with me on social media!</p>
+    <div style="text-align: center; background: rgba(0, 0, 0, 0.1); padding: 30px; border-radius: 10px; max-width: 600px; margin: auto;">
+      <h2 style="font-size: 45px; font-weight: 600; margin-bottom: 20px;">Contact Me</h2>
+      <p style="font-size: 20px; margin-bottom: 20px;">Feel free to reach out to me via email or connect with me on social media!</p>
 
       <!-- Icons with links -->
       <div style="display: flex; justify-content: center; gap: 20px;">
         
         <!-- Instagram Icon -->
         <a href="https://www.instagram.com/anxshka.k/" target="_blank" style="text-decoration: none;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" style="width: 40px; height: 40px; transition: transform 0.3s ease;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" style="width: 40px; height: 40px;">
         </a>
         
         <!-- LinkedIn Icon -->
         <a href="https://www.linkedin.com/in/anushka-kshirsagar211/" target="_blank" style="text-decoration: none;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" style="width: 40px; height: 40px; transition: transform 0.3s ease;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" style="width: 40px; height: 40px; transition:">
         </a>
       </div>
 
@@ -675,7 +683,6 @@
 
   <!-- Back to Top Button -->
   <a href="#top" id="backToTop" class="back-to-top">
-    &#8593; Back to Top
-  </a>
-</body>
-</html>
+    &#8593; Back to Top</a>
+  
+
